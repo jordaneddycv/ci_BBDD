@@ -51,48 +51,17 @@
     ?>
     <?php 
     $rutaImagen = $articulos[$i]['imagen'];
-    $rutaImagen2 = $articulos[$i]['imagen2'];
     ?>
     <div class="card mx-auto p-1" style="width: 20%;">
 
     <!-- <img src="" class="card-img-top" width="100%" height="100%" alt="..."> -->
-    <div id="carouselExample" class="carousel slide pb-5">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img src="<?php echo base_url() . 'imagenes/' . $rutaImagen; ?>" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <?php 
-                          if($rutaImagen2!=""){
-                            ?>
-                            
-                            <img src="<?php echo base_url() . 'imagenes/' . $rutaImagen2; ?>" class="d-block w-100" alt="...">
-                            
-                            <?php 
-                          }else{?><?php 
-                          }
-                          ?>
-                          </div>
-                        </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                        </button>
-      </div>
-
-
-
-
+      <img src="<?php echo base_url() . 'imagenes/' . $rutaImagen; ?>" width="15%" class="card-img-top" alt="...">
       
 
     <div class="card-body">
     <h5 class="card-title"><?php echo $articulos[$i]['articulo']?></h5>
     <p class="card-text">Cantidades disponibles: <?php echo $articulos[$i]['cantidad']?></p>
-    <a href="<?php echo base_url('articulos/eliminar?bye='.$articulos[$i]['cantidad']) ?>" class="btn btn-danger">Eliminar</a>
+    <a href="<?php echo base_url('articulos/eliminar?bye='.$articulos[$i]['id']) ?>" class="btn btn-danger">Eliminar</a>
     </div>
     </div>
     <?php 

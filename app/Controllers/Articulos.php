@@ -75,14 +75,13 @@ class Articulos extends BaseController
         
         $nombreImagen=$imagen->getRandomName();
         
-        echo $nombreImagen;
-        echo $imagen2;
+      //   echo $nombreImagen;
+      //   echo $imagen2;
         $imagen->move('../public/imagenes',$nombreImagen);
         if($imagen2->getName()!=""){
          $nombreImagen2=$imagen2->getRandomName();
          $imagen2->move('../public/imagenes',$nombreImagen2);
         }else{
-         exit;
         }
         
 
@@ -155,9 +154,9 @@ class Articulos extends BaseController
      
      public function eliminar(){
         $modelo= model(ArticulosModel::class);
-        $cantidad = $this->request->getGet('bye');
+        $id = $this->request->getGet('bye');
 
-        $modelo->where('cantidad', $cantidad)->delete(); 
+        $modelo->where('cantidad', $id)->delete(); 
 
         $session=session();
 
@@ -171,7 +170,6 @@ class Articulos extends BaseController
          $modelo2->where('id_usuario', $session->get('id'));
          $data['articulos']= $modelo2->findAll();
          return view('area_usuario',$data);
-
         }
      }
 
@@ -179,15 +177,12 @@ class Articulos extends BaseController
      public function more(){
 
 
+      $session=session();
+      $modelo2 = model(ArticulosModel::class);
+      $modelo2->where('id_usuario', $session->get('id'));
 
-
-
-     }
-
-
-     public function comprarlo(){
-
-
+      
+      return view('templatesbyjordan/header').view('ver_producto');
 
 
      }

@@ -42,7 +42,7 @@ $rutaImagen = $articulos[$i]['imagen'];
 <h5 class="card-title"><?php echo $articulos[$i]['articulo']?></h5>
 <p class="card-text">Unidades disponibles: <?php echo $articulos[$i]['cantidad']?></p>
 <p class="card-text">Precio: <?php echo $articulos[$i]['precio']?> €</p>
-<a href="" class="btn btn-primary">Ver producto</a>
+<a href="<?php echo base_url('articulos/more?bye='.$articulos[$i]['id']) ?>"  class="btn btn-primary">Ver producto</a>
 </div>
 </div>
 <?php 
