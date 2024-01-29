@@ -1,0 +1,301 @@
+INFO - 2024-01-22 07:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 07:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 08:27:14 --> Undefined variable $modelo
+in APPPATH\Controllers\Usuarios.php on line 56.
+ 1 APPPATH\Controllers\Usuarios.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelo', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:35 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:36 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:36 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:37 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:37 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:37 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:38 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:38 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:27:41 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-22 08:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 08:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-22 08:29:19 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:29:53 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:29:53 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:29:54 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:29:55 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:29:55 --> Call to undefined method App\Models\UsuariosModel::findOne
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Usuarios.php(57): CodeIgniter\Model->__call('findOne', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:30:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:30:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:31:16 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:31:16 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:31:25 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:37:48 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:51 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:52 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:53 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:53 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:54 --> Array to string conversion
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:58 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:59 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:38:59 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:39:00 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:39:01 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:39:02 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:40:12 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:40:12 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:40:14 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-22 08:40:15 --> Attempt to read property "nombre" on array
+in APPPATH\Controllers\Usuarios.php on line 58.
+ 1 APPPATH\Controllers\Usuarios.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\segundotrimestre\\ci_BBDD\\app\\Controllers\\Usuarios.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->check()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-22 11:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 11:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-22 12:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

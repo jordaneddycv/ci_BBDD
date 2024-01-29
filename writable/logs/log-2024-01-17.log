@@ -1,0 +1,472 @@
+INFO - 2024-01-17 07:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 07:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 08:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 08:10:01 --> Undefined variable $imagen
+in APPPATH\Controllers\Articulos.php on line 55.
+ 1 APPPATH\Controllers\Articulos.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagen', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Controllers\\Articulos.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 08:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 08:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 08:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 08:40:19 --> Undefined variable $session
+in APPPATH\Controllers\Usuarios.php on line 12.
+ 1 APPPATH\Controllers\Usuarios.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Controllers\\Usuarios.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 08:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:17:19 --> Undefined array key "DNI"
+in APPPATH\Controllers\Usuarios.php on line 25.
+ 1 APPPATH\Controllers\Usuarios.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DNI"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Controllers\\Usuarios.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 09:35:32 --> Can't use function return value in write context
+in APPPATH\Controllers\Articulos.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-17 09:36:07 --> Can't use function return value in write context
+in APPPATH\Controllers\Articulos.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-17 09:36:21 --> Can't use function return value in write context
+in APPPATH\Controllers\Articulos.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-17 09:37:36 --> Can't use function return value in write context
+in APPPATH\Controllers\Articulos.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-17 09:37:37 --> Can't use function return value in write context
+in APPPATH\Controllers\Articulos.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-17 09:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:38:03 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(65): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:38:04 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(65): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:39:36 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(65): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:39:37 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(65): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:39:38 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(65): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:39:39 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(65): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:41:08 --> Undefined variable $xd
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $xd', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(16): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:41:22 --> Undefined variable $nombre
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(16): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:42:33 --> Undefined variable $xd
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $xd', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Articulos.php(36): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->alta_articulo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:43:01 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(66): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:07 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:46:11 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:20 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:40 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:47:40 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\articulos.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 4 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:48:04 --> Undefined variable $articulo
+in APPPATH\Views\articulos.php on line 5.
+ 1 APPPATH\Views\articulos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articulo', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:48:07 --> Undefined variable $articulo
+in APPPATH\Views\articulos.php on line 5.
+ 1 APPPATH\Views\articulos.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articulo', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:48:40 --> Undefined array key "imagen1"
+in APPPATH\Views\articulos.php on line 8.
+ 1 APPPATH\Views\articulos.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen1"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:51:17 --> Undefined array key "imagen1"
+in APPPATH\Views\articulos.php on line 9.
+ 1 APPPATH\Views\articulos.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen1"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:51:52 --> Undefined array key "imagenes"
+in APPPATH\Views\articulos.php on line 9.
+ 1 APPPATH\Views\articulos.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:51:53 --> Undefined array key "imagenes"
+in APPPATH\Views\articulos.php on line 9.
+ 1 APPPATH\Views\articulos.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenes"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:53:51 --> Undefined variable $rutaImagen
+in APPPATH\Views\articulos.php on line 11.
+ 1 APPPATH\Views\articulos.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rutaImagen', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:53:52 --> Undefined variable $rutaImagen
+in APPPATH\Views\articulos.php on line 11.
+ 1 APPPATH\Views\articulos.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rutaImagen', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\articulos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('articulos', [], true)
+ 5 APPPATH\Controllers\Articulos.php(67): view('articulos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->mostrarTodo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:56:15 --> Undefined variable $datos
+in APPPATH\Controllers\Usuarios.php on line 28.
+ 1 APPPATH\Controllers\Usuarios.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Controllers\\Usuarios.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 09:56:42 --> Undefined array key "DNI"
+in APPPATH\Controllers\Usuarios.php on line 28.
+ 1 APPPATH\Controllers\Usuarios.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DNI"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Controllers\\Usuarios.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 09:56:55 --> Undefined array key "DNI"
+in APPPATH\Controllers\Usuarios.php on line 28.
+ 1 APPPATH\Controllers\Usuarios.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "DNI"', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Controllers\\Usuarios.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 09:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 09:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

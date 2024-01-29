@@ -1,0 +1,18 @@
+CRITICAL - 2023-12-13 08:24:31 --> Invalid file: "ver_articulo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ver_articulo.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ver_articulo', [], true)
+ 3 APPPATH\Controllers\Articulos.php(13): view('ver_articulo')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->ver()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 08:41:27 --> Invalid file: "ver_tiendas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ver_tiendas.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('ver_tiendas', [], true)
+ 3 APPPATH\Controllers\Tiendas.php(9): view('ver_tiendas')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Tiendas->verTienda()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tiendas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

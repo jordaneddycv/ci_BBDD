@@ -1,0 +1,60 @@
+CRITICAL - 2024-01-12 08:13:48 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:14:20 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:14:21 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:14:25 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:14:26 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:15:04 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:15:10 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-12 08:15:13 --> Cannot redeclare App\Controllers\Articulos::guardar()
+in APPPATH\Controllers\Articulos.php on line 39.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-12 08:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 08:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 08:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-12 08:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 08:15:33 --> Call to undefined method App\Controllers\Articulos::getPost()
+in APPPATH\Controllers\Articulos.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 08:16:06 --> Call to undefined method App\Controllers\Articulos::getPost()
+in APPPATH\Controllers\Articulos.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 08:16:22 --> Call to undefined method App\Controllers\Articulos::getPost()
+in APPPATH\Controllers\Articulos.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-12 08:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-12 08:16:30 --> Call to undefined method App\Controllers\Articulos::getPost()
+in APPPATH\Controllers\Articulos.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-12 08:17:25 --> App\Controllers\Articulos::guardar(): Return value must be of type string, none returned
+in APPPATH\Controllers\Articulos.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Articulos->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-12 08:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
