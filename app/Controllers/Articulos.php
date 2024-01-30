@@ -175,14 +175,16 @@ class Articulos extends BaseController
 
 
      public function more(){
-
+      $id = $this->request->getGet('bye');
 
       $session=session();
       $modelo2 = model(ArticulosModel::class);
-      $modelo2->where('id_usuario', $session->get('id'));
+      $modelo2->where('id', $id);
+      $data['articulos']= $modelo2->findAll();
+     
 
       
-      return view('templatesbyjordan/header').view('ver_producto');
+      return view('templatesbyjordan/header').view('ver_producto',$data);
 
 
      }
