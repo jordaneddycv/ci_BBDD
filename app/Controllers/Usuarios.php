@@ -51,11 +51,11 @@ class Usuarios extends BaseController
          $modelo->where('nombre', $nombre);
          $modelo->save($datos);
          $data['xd']='USSERS';
-         return view('templates/header', $data).view('logear_usuario');
+         return view('area_principal');
         }else{
             echo '<script>alert("El usuario ya existe.");</script>';
             $data['xd']='USSERS';
-            return view('templates/header', $data).view('logear_usuario');
+            return view('area_principal');
         }
        //$imagen->getName();
         
@@ -109,9 +109,10 @@ class Usuarios extends BaseController
             $usuario = $session->get('usuario');
             // echo $usuario;
             // echo $session->get('id');
-            return view('area_usuario',$data);
+            return view('templatesbyjordan/header',$data).view('area_usuario',$data);
             
         }else{
+            echo '<script>alert("Datos no encontrados.");</script>';
             return view('area_principal');
         }
 
@@ -134,7 +135,7 @@ class Usuarios extends BaseController
             $data['xd']='usuariosxd';
             $session->get('usuario');
             $session->get('id');//esto creo que no lo necesita pero por si acaso lo mando igualxd
-            return view('area_usuario',$data);
+            return view('templatesbyjordan/header',$data).view('area_usuario',$data);
         }
     }
 

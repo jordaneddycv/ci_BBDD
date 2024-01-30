@@ -1,4 +1,8 @@
-
+<style>
+  body{
+    background-color:#eae6ca;
+  }
+</style>
    <?php echo validation_list_errors();
    ?>
 

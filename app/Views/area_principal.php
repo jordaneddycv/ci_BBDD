@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wallacapi</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url() ?>/favicon-32x32.png">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <style>
@@ -79,18 +79,17 @@
 <!-- Contenido del Pop-up -->
 <div id="popup" class="popup">
         <img src="<?php echo base_url()?>/wallacapi.png" alt="" width="100%">
-        <form action="<?php echo base_url()?>usuarios/check" method="post"action="">
-        <label for="">Email:</label>
+        <form action="<?php echo base_url()?>usuarios/check" method="post"action="" id="registrarse2">
+        <label for=""  style="margin-right:55px;">Email:</label>
         <input type="text" name="email" required>
-        <br>
-        <label for="">Password:</label>
+        <br><br>
+        <label for="" style="margin-right:10px;">Password:</label>
         <input type="password" name="pass" required>
-        <br>
+        <br><br>
         <input type="submit" value="Enviar">
-        
-       
         </form>
-        <button onclick="cerrarPopup(); ">Cerrar</button>
+        <br>
+        <button onclick="cerrarPopup(); " style="font-size:1.5rem;">Cerrar</button>
         <p>No estas registrado? Resgitrate <a onclick="mostrarPopup2()" class="">aqui</a></p>
 </div>
 <div id="popup2" class="popup2">
@@ -244,54 +243,14 @@
                         <div>
                            <!-- page block img -->
                            <a href="../index.html" class="text-inherit">
-                              <img src="../assets/images/overview/home-page-1.jpg" alt="" class="img-fluid shadow-sm">
-                           </a>
-                        </div>
+                             
                         <!-- page block content -->
                         <div class="mt-6 text-center">
                            <h3 class="h5 mb-0">
-                              <a href="../index.html" class="text-inherit">Home Page 1</a>
+                              <a href="index-3.html" class="text-inherit">New</a>
                            </h3>
                         </div>
                      </div>
-                  </div>
-                  <div class="col-md-4">
-                     <!-- page block -->
-                     <div class="mb-4 bg-light p-10">
-                        <div>
-                           <!-- page block img -->
-                           <a href="index-2.html" class="text-inherit">
-                              <img src="../assets/images/overview/home-page-2.jpg" alt="" class="img-fluid shadow-sm">
-                           </a>
-                        </div>
-                        <!-- page block content -->
-                        <div class="mt-6 text-center">
-                           <h3 class="h5 mb-0">
-                              <a href="index-2.html" class="text-inherit">Home Page 2</a>
-                           </h3>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <!-- page block -->
-                     <div class="mb-4 bg-light p-10">
-                        <div>
-                           <!-- page block img -->
-                           <a href="index-3.html" class="text-inherit">
-                              <img src="../assets/images/overview/home-page-3.jpg" alt="" class="img-fluid shadow-sm">
-                           </a>
-                        </div>
-                        <!-- page block content -->
-                        <div class="mt-6 text-center">
-                           <h3 class="h5 mb-0">
-                              <a href="index-3.html" class="text-inherit">Home Page 3</a>
-                           </h3>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- text -->
-                  <div class="col-12 text-center">
-                     <p>More home pages coming soon...</p>
                   </div>
                </div>
             </div>

@@ -97,7 +97,7 @@ class Articulos extends BaseController
         $modelo2->where('id_usuario', $id);
         $data['articulos']= $modelo2->findAll();
 
-        return view('area_usuario',$data);
+        return view('templatesbyjordan/header',$data).view('area_usuario',$data);
         //$imagen->getName();
          
         //  $imagen=$this->request->getFile('imagen');
@@ -156,7 +156,7 @@ class Articulos extends BaseController
         $modelo= model(ArticulosModel::class);
         $id = $this->request->getGet('bye');
 
-        $modelo->where('cantidad', $id)->delete(); 
+        $modelo->where('id', $id)->delete(); 
 
         $session=session();
 
@@ -169,7 +169,7 @@ class Articulos extends BaseController
          $modelo2 = model(ArticulosModel::class);
          $modelo2->where('id_usuario', $session->get('id'));
          $data['articulos']= $modelo2->findAll();
-         return view('area_usuario',$data);
+         return view('templatesbyjordan/header',$data).view('area_usuario',$data);
         }
      }
 

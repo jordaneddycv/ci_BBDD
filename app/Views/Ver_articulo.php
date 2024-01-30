@@ -1,5 +1,9 @@
 <?php $session = session();?>
-  
+<style>
+  body{
+    background-color:#eae6ca;
+  }
+</style>
 <h1>Articulos en linea</h1>
 
 <!--  -->
