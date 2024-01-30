@@ -650,3 +650,281 @@ in APPPATH\Controllers\Articulos.php on line 90.
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 INFO - 2024-01-30 12:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 12:51:36 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sql109.infinity...', 'if0_35798105', 'snV5Wjs3rmPQobF', 'if0_35798105_ti...', 3306, '', 0)
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#10 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sql109.infinity...', 'if0_35798105', 'snV5Wjs3rmPQobF', 'if0_35798105_ti...', 3306, '', 0)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 12:51:36 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:51:36 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sql109.infinity...', 'if0_35798105', 'snV5Wjs3rmPQobF', 'if0_35798105_ti...', 3306, '', 0)
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#10 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sql109.infinity...', 'if0_35798105', 'snV5Wjs3rmPQobF', 'if0_35798105_ti...', 3306, '', 0)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 12:51:36 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-30 12:52:41 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sql109.infinity...', 'if0_35798105', 'snV5Wjs3rmPQobF', 'if0_35798105_ti...', 3306, '', 0)
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#10 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sql109.infinity...', 'if0_35798105', 'snV5Wjs3rmPQobF', 'if0_35798105_ti...', 3306, '', 0)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\app\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+#7 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+#8 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\segundotrimestre\daw\ci_BBDD\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-30 12:52:41 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Area.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Area->bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Area))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:56:34 --> Undefined variable $articulos
+in APPPATH\Views\area_principal.php on line 247.
+ 1 APPPATH\Views\area_principal.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articulos', 'C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\area_principal.php', 247)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\segundotrimestre\\daw\\ci_BBDD\\app\\Views\\area_principal.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('area_principal', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(54): view('area_principal')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuarios->guardar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:58:50 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 116.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:59:13 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 116.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:59:38 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 116.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 12:59:59 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 116.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:00:56 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 122.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:01:34 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 122.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:01:45 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 122.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:02:14 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 122.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 13:03:05 --> syntax error, unexpected variable "$modelo3", expecting "," or ";"
+in APPPATH\Controllers\Usuarios.php on line 122.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('usuarios/guardar', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('usuarios/guardar')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('usuarios/guardar')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 13:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 13:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -51,11 +51,17 @@ class Usuarios extends BaseController
          $modelo->where('nombre', $nombre);
          $modelo->save($datos);
          $data['xd']='USSERS';
-         return view('area_principal');
+         $modelo3 = model(ArticulosModel::class);
+            $modelo3->limit(3); // Reemplaza 'id' y 1 con tu condición real
+            $data['articulos'] = $modelo3->findAll();
+            return view('area_principal',$data);
         }else{
             echo '<script>alert("El usuario ya existe.");</script>';
             $data['xd']='USSERS';
-            return view('area_principal');
+            $modelo3 = model(ArticulosModel::class);
+            $modelo3->limit(3); // Reemplaza 'id' y 1 con tu condición real
+            $data['articulos'] = $modelo3->findAll();
+            return view('area_principal',$data);
         }
        //$imagen->getName();
         
@@ -113,7 +119,10 @@ class Usuarios extends BaseController
             
         }else{
             echo '<script>alert("Datos no encontrados.");</script>';
-            return view('area_principal');
+            $modelo3 = model(ArticulosModel::class);
+            $modelo3->limit(3); // Reemplaza 'id' y 1 con tu condición real
+            $data2['articulos'] = $modelo3->findAll();
+            return view('area_principal',$data2);
         }
 
         // $articulo = $modelo->find(2);
@@ -143,6 +152,9 @@ class Usuarios extends BaseController
     {   
         $session=session();
         $session->destroy();
-        return redirect()->to(base_url('area/area_principal'));
+        $modelo3 = model(ArticulosModel::class);
+        $modelo3->limit(3); // Reemplaza 'id' y 1 con tu condición real
+        $data['articulos'] = $modelo3->findAll();
+        return redirect()->to(base_url('area/area_principal'), $data);
     }
 }
