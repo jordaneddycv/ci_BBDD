@@ -60,16 +60,16 @@
 
 
 <!-- **************************************************************************************************** -->
-        <td>Articulo:</td>
+        <td>Articulo: <?php echo $articulos[0]['articulo']; ?></td>
     </tr>
     <tr>
-        <td>Descripcion:</td>
+        <td>Descripcion: <?php echo $articulos[0]['descripcion']; ?></td>
     </tr>
     <tr>
-        <td>Precio:</td>
+        <td>Precio: <?php echo $articulos[0]['precio']; ?></td>
     </tr>
     <tr>
-        <td>Fecha:</td>
+        <td>Fecha: <?php echo $articulos[0]['fecha']; ?></td>
     </tr>
 </table>
 
