@@ -81,12 +81,13 @@ class Articulos extends BaseController
         if($imagen2->getName()!=""){
          $nombreImagen2=$imagen2->getRandomName();
          $imagen2->move('../public/imagenes',$nombreImagen2);
+         $datos=['id_usuario'=>$id,'cantidad'=>$cantidad, 'articulo'=>$articulo,'descripcion'=>$descripcion,'precio'=>$precio,'imagen'=>$nombreImagen, 'imagen2'=>$nombreImagen2];
         }else{
+         $datos=['id_usuario'=>$id,'cantidad'=>$cantidad, 'articulo'=>$articulo,'descripcion'=>$descripcion,'precio'=>$precio,'imagen'=>$nombreImagen];
         }
         
 
         //  echo $nombre;
-        $datos=['id_usuario'=>$id,'cantidad'=>$cantidad, 'articulo'=>$articulo,'descripcion'=>$descripcion,'precio'=>$precio,'imagen'=>$nombreImagen, 'imagen2'=>$nombreImagen2];
         // echo $datos['nombre'].' '.$articulo['articulo'].' '.$datos['precio'];
         //esto comentado es para guardar a la base de datos
         $modelo= model(ArticulosModel::class);

@@ -45,7 +45,7 @@
 
 
   <div class="carousel-item active">
-        <img src="<?php echo base_url() . 'imagenes/' . $articulos[0]['imagen']; ?>" class="d-block w-300" alt="...">
+        <img src="<?php echo base_url() . 'imagenes/' . $articulos[0]['imagen']; ?>" class="d-block w-100" alt="...">
       </div>
     <div class="carousel-item">
       <img src="<?php echo base_url(). 'imagenes/' .$articulos[0]['imagen2']; ?>" width="100%" height="100%" class="d-block w-100" alt="...">

@@ -181,8 +181,9 @@
                   <div class="offset-lg-1 col-lg-10 col-12">
                      <!-- text -->
                      <div class="text-center">
-                        <h1 class="mb-4 fw-bold">FreshCart - eCommerce HTML Template</h1>
-                        <p class="lead mx-lg-18">A powerful HTML library to develop e-commerce web sites with a huge set of components and templates.</p>
+                        <br>
+                        <h1 class="mb-4 fw-bold">Wallacapi &#128062;</h1>
+                        <p class="lead mx-lg-18">Compra con seguridad y confianza. &#128568;</p>
                      </div>
                      <!-- img -->
                     <div class="text-center mt-10 mb-lg-n18 mb-n10">
@@ -243,14 +244,37 @@
                         <div>
                            <!-- page block img -->
                            <a href="../index.html" class="text-inherit">
-                             
-                        <!-- page block content -->
-                        <div class="mt-6 text-center">
-                           <h3 class="h5 mb-0">
-                              <a href="index-3.html" class="text-inherit">New</a>
-                           </h3>
+                              <img src="<?php echo base_url() . 'imagenes/' . $articulos[0]['imagen']; ?>" alt="" class="img-fluid shadow-sm">
+                           </a>
                         </div>
+                        <!-- page block content -->
                      </div>
+                  </div>
+                  <div class="col-md-4">
+                     <!-- page block -->
+                     <div class="mb-4 bg-light p-10">
+                        <div>
+                           <!-- page block img -->
+                              <img src="<?php echo base_url() . 'imagenes/' . $articulos[1]['imagen']; ?>" alt="" class="img-fluid shadow-sm">
+                         
+                        </div>
+                        <!-- page block content -->
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <!-- page block -->
+                     <div class="mb-4 bg-light p-10">
+                        <div>
+                           <!-- page block img -->
+                              <img src="<?php echo base_url() . 'imagenes/' . $articulos[2]['imagen']; ?>" alt="" class="img-fluid shadow-sm">
+                         
+                        </div>
+                        <!-- page block content -->
+                     </div>
+                  </div>
+                  <!-- text -->
+                  <div class="col-12 text-center">
+                     <p>More home pages coming soon...</p>
                   </div>
                </div>
             </div>
